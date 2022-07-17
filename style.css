@@ -1051,3 +1051,7 @@ img.img-responsive{
     width : 270px;
     height: 270px;
 }
+img .center-block.image-resize-mode{
+    height: 98px;
+    width: 98px;
+}
