@@ -801,7 +801,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #F3976C!important;
 }
 
 .icon-dark-slate-blue {
@@ -1069,6 +1069,10 @@ img.center-block.image-resize-mode{
     text-align: center;
 }
 p.text-center.black{
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar-brand img{
+    height: 40px;
+    width: 260px;
 }
