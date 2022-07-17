@@ -645,12 +645,13 @@ h3,
 h4,
 h5,
 h6,
+p,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -1058,11 +1059,17 @@ img.center-block.image-resize-mode{
     height: 98px;
     width: 98px;
 }
-@media (max-width : 380px) {
-    .tiret{
-        display: none;
-    }
+@media (max-width : 420px) {
+   #bloc-1-hero h1{
+    font-size: 26px;
+   }
 }
+@media (max-width : 350px) {
+    #bloc-1-hero h1{
+        font-size: 24px;
+       }
+}
+
 .test{
     color : #F3976C !important;
     text-align: center;
