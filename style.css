@@ -645,7 +645,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn,
 a {
@@ -775,12 +774,12 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F5F5F5!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1068,11 +1067,18 @@ img.center-block.image-resize-mode{
     color : #F3976C !important;
     text-align: center;
 }
-p.text-center.black{
-    font-size: 15px;
+p.text-center.black.textEnNoir{
+    font-size: 16px;
     font-weight: bold;
+    color: #000000;
+}
+.textEnNoir{
+    color: #000000;
 }
 .navbar-brand img{
     height: 40px;
     width: 260px;
+}
+.tc-white{
+    color: white;
 }
