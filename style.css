@@ -1084,3 +1084,8 @@ p.text-center.black.textEnNoir{
     height: 40px;
     width: 260px;
 }
+
+.testify{
+    font-size: 17px;
+    font-style: italic;
+}
